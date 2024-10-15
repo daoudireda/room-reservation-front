@@ -6,22 +6,55 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular CLI 18.2.4
+- @fullcalendar
+- TypeScript
+- HTML5
+- CSS3
+- RxJS
+- Angular Material
 
-## Running end-to-end tests
+## Features
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Room reservation management
+- Responsive design
+- Real-time updates
+- Calendar integration
 
-## Further help
+## How to Run the Project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/room-reservation-front.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd room-reservation-front
+   ```
+3. **Install the dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Run the development server:**
+   ```sh
+   ng serve
+   ```
+5. **Open your browser and navigate to:**
+
+   ` http://localhost:4200/`
+
+6. **Run the Java API:**
+
+   ```sh
+   git clone https://github.com/daoudireda/room-reservation.git
+   cd room-reservation
+   ./mvnw spring-boot:run
+   ```
+
+7. **Ensure both the Angular app and the Java API are running:** - Angular app: `http://localhost:4200/` - Java API: `http://localhost:8080/`
